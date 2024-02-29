@@ -129,7 +129,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `role`, `password`, `created_at`, `updated_at`) VALUES
-(1, 'john', 'info@sti.com', 'Admin', '81dc9bdb52d04dc20036dbd8313ed055', '2018-01-08 11:52:58', '2018-01-08 11:52:58'),
+(1, 'matthieu', 'info@sti.com', 'Admin', '81dc9bdb52d04dc20036dbd8313ed055', '2018-01-08 11:52:58', '2018-01-08 11:52:58'),
 (2, 'jane', 'info@jane.com', 'Author', '81dc9bdb52d04dc20036dbd8313ed055', '2024-01-08 11:52:58', '2024-01-08 11:52:58');
 
 --
