@@ -1,6 +1,7 @@
 <?php include('../config.php'); ?>
 <?php include(ROOT_PATH . '/includes/admin_functions.php'); ?>
 <?php include(ROOT_PATH . '/includes/admin/head_section.php'); ?>
+<?adminOnly();?>
 
 //BTW: ideally we need to create a role_user table (users<---->role_user<----->roles)
 	// role_user(id, user_id,role_id)
